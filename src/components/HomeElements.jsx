@@ -1,4 +1,4 @@
-import '../styles/homelements.css'
+import '../homelements.css'
 const HomeElements = () => {
   return (
     <div className="elements">
