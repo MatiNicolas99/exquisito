@@ -1,0 +1,23 @@
+.elements {
+    background: url("/src/img/food2.jpg") no-repeat;
+    background-size: cover; 
+    height: 40rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.elements h1 {
+    width: 50%;
+    font-size: 3rem;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .elements {
+        justify-content: center;
+    }
+    .elements h1 {font-size: 45px;}
+}
